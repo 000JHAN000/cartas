@@ -1,0 +1,31 @@
+/* Organiza la página */
+body {
+    background-color: #f0f0f0; /* color del fondo*/
+    font-family: sans-serif;/* tipo de letra */
+    text-align: center;/* centra el texto */
+}
+
+
+#contenedor-cartas {
+    display: flex; /* Pone las imágenes una al lado de la otra */
+    flex-wrap: wrap; /* Si no caben, pasan a la siguiente línea */
+    justify-content: center; /* Centra las imágenes */
+    gap: 10px; /* Espacio entre cada imagen */
+    margin-top: 20px;
+}
+
+/* Estilo para cada carta que aparece */
+.carta-imagen {
+    width: 100px; /* Ancho de la carta */
+    height: 150px; /* Alto de la carta */
+
+}
+#BARAJA {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto en blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
